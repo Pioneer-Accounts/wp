@@ -15,7 +15,7 @@ const HeroSection = () => {
           <li>FAQ’s</li>
         </ul>
       </nav>
-      <div className="flex justify-between px-16 py-12 items-center ml-72">
+      <div className="flex justify-between px-16 py-12 items-center ml-72 mt-10 mb-10">
         {/* Left Content */}
         <div className="max-w-lg">
           <h1 className="text-4xl font-bold leading-tight">
@@ -33,14 +33,14 @@ const HeroSection = () => {
         </div>
         {/* Right Content */}
         <div className="relative mr-72">
-          <div className="bg-purple-700 rounded-lg p-4">
+          <div className=" rounded-lg p-4">
             <img
               src={image}
               alt="Expert-led Courses"
               className="rounded-lg"
             />
           </div>
-          <div className="absolute top-4 left-4 bg-white px-3 py-1 shadow rounded-lg text-sm">
+          {/* <div className="absolute top-4 left-4 bg-white px-3 py-1 shadow rounded-lg text-sm">
             Digital Marketing
           </div>
           <div className="absolute top-20 left-10 bg-white px-3 py-1 shadow rounded-lg text-sm">
@@ -51,7 +51,7 @@ const HeroSection = () => {
           </div>
           <div className="absolute bottom-10 right-10 bg-white px-3 py-1 shadow rounded-lg text-sm">
             Copy Writing
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

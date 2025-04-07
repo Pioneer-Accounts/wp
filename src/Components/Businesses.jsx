@@ -15,7 +15,7 @@ const businesses = [
 
 const RazorpayGrowth = () => {
   return (
-    <div className="text-center p-8">
+    <div className="text-center p-8 mt-10">
       {/* Heading */}
       <h1 className="text-3xl font-semibold">
         Company grows with <span className="text-blue-600">you!</span>

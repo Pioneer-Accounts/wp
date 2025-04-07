@@ -4,18 +4,18 @@ const FreelancerPayment = () => {
   return (
     <div className="font-sans p-8">
       {/* Navbar */}
-      <nav className="flex justify-between items-center mb-6">
-        <h1 className="text-3xl font-bold ml-80">Powering every industry. Powering all disruptors.</h1>
-        <div className="flex space-x-4 text-gray-500">
+      <nav className="flex justify-between items-center mb-6 flex justify-center">
+        <h1 className="text-3xl font-bold ">Powering every industry. Powering all disruptors.</h1>
+        {/* <div className="flex space-x-4 text-gray-500">
           <span>🎮</span>
           <span>📷</span>
           <span>🎵</span>
           <span>💼</span>
-        </div>
+        </div> */}
       </nav>
 
       {/* Category Tabs */}
-      <div className="flex space-x-6 text-gray-500 border-b pb-2 mb-6 ml-80">
+      <div className="flex space-x-6 text-gray-500 border-b pb-2 mb-6 flex justify-center">
         <span className="cursor-pointer">E-Commerce</span>
         <span className="cursor-pointer">Education</span>
         <span className="cursor-pointer">BFSI</span>
@@ -26,7 +26,7 @@ const FreelancerPayment = () => {
       {/* Content Section */}
       <div className="relative flex items-center  justify-center bg-gray-100 p-6 rounded-lg shadow-lg">
         {/* Text Section */}
-        <div className="absolute left-10 bg-white  ml-80 p-6 shadow-lg rounded-lg max-w-md">
+        <div className="absolute left-10 bg-white  ml-100 p-6 shadow-lg rounded-lg max-w-md">
           <h2 className="text-2xl font-bold">
             The personalized payment solution for <span className="text-green-600">freelancers</span>
           </h2>

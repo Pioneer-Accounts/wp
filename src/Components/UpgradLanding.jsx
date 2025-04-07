@@ -2,7 +2,7 @@ import React from "react";
 
 const UpgradLanding = () => {
   return (
-    <div className="flex items-center justify-center p-8 space-x-8">
+    <div className="flex items-center justify-center p-8 space-x-8 mt-10">
       {/* Left Section */}
       <div className="max-w-md mr-60">
         <h1 className="text-3xl font-bold">
